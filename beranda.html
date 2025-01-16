@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - MudahStay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 60px;
+            height: 80px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            text-align: center;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            transition: background-color 0.3s, border 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border: 1px solid #fff;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            text-align: center;
+            width: 300px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .gallery a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .gallery a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="MudahStay Logo">
+        <h1>MudahStay</h1>
+        <p>Tempat Penginapan Mudah dan Nyaman</p>
+    </header>
+
+    <nav>
+        <a href="beranda.html">Beranda</a>
+        <a href="pesan.html">Pesan Penginapan</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section>
+        <h2>Beranda</h2>
+        <p>Selamat datang di MudahStay! Kami menyediakan tempat penginapan yang nyaman, bersih, dan terjangkau. Nikmati pengalaman menginap terbaik dengan fasilitas unggulan kami.</p>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img/prima.jpg" alt="Kamar Nyaman 1">
+                <p>Harga: Rp 500.000/malam</p>
+                <a href="pesan.html">Pesan Sekarang</a>
+            </div>
+            <div class="gallery-item">
+                <img src="img/graha.jpg" alt="Kamar Nyaman 2">
+                <p>Harga: Rp 450.000/malam</p>
+                <a href="pesan.html">Pesan Sekarang</a>
+            </div>
+            <div class="gallery-item">
+                <img src="img/aby.jpg" alt="Kamar Nyaman 3">
+                <p>Harga: Rp 600.000/malam</p>
+                <a href="pesan.html">Pesan Sekarang</a>
+            </div>
+            <div class="gallery-item">
+                <img src="img/aloha.jpg" alt="Kamar Nyaman 4">
+                <p>Harga: Rp 550.000/malam</p>
+                <a href="pesan.html">Pesan Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MudahStay. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
